@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /car-service
+
+spring:
+  data:
+    mongodb:
+      database: car-service
+      #username:
+      #password:
+      host: localhost
+      port: 27017
